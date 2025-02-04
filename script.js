@@ -1,8 +1,8 @@
 //your JS code here. If required.
-let name = document.getElementById('fname');
-function xyz(name){
-	let name1 = name.toUpperCase();
-	return name1;
+function convertToUpper(){
+	let inputField = document.getElementById('fname');
+	let inputField1 = inputField.toUpperCase();
+	return inputField1;
 }
-let name2 = xyz();
-xyz()
+let n1 = convertToUpper();
+n1()
